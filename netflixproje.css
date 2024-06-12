@@ -1,0 +1,112 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #111;
+}
+
+.menusection {
+    display:flex;
+    gap: 15px;
+    margin-top: 25px;
+    align-items: center;
+}
+
+
+.menusection a{
+    color:black;
+    text-align: center;
+}
+
+.netflixlogo{
+    display: flex;
+    mix-blend-mode: multiply;
+    
+}
+.netflix_img {
+    width: 20%;
+}
+
+.banner_right {
+   display: flex;
+   justify-content: space-between;
+   gap: 10px;
+   align-items: center;
+   margin-top: 10px;
+   margin-right: 10px;
+   
+}
+.banner_right a{
+    color:black;
+}
+
+.banner_right svg{
+    width: 25px;
+    height: 25px;
+}
+
+.allbanner {
+    display: flex;
+    justify-content: space-between;
+    height: 350px; 
+    align-items: flex-start;   
+}
+.users_logo {
+    width: 35px;
+    height: 35px;
+}
+
+.netflixOriginals_images {
+    display: flex;
+    gap: 10px;
+    object-fit: contain;
+}
+
+.vertical_images {
+    display: flex;
+    gap: 10px;   
+}
+
+.netflixOriginals_images img{
+    width: 200px;
+    max-height: 250px;
+}
+
+.vertical_images img {
+    width: 200px;
+}
+
+.allimages {
+    overflow-y: hidden;
+    overflow-x: scroll;
+    
+}
+
+.allimages::-webkit-scrollbar{
+    display: none;
+}
+
+.allimages img:hover {
+    transform: scale(1.05);
+}
+
+.button {
+    cursor: pointer;
+    color:#fff;
+    background-color: rgba(51,51,51,0.5);
+    height: 30px;
+    border-radius: 3px;
+}
+.button:hover{
+    color:black;
+    background-color: #e6e6e6;
+}
+
+.anaekranposteri {
+ background-image: url("./images/videoposter.JPG");
+ background-repeat: no-repeat;
+ object-fit: contain;
+
+}
+
+
