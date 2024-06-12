@@ -106,6 +106,8 @@ body {
  background-image: url("./images/videoposter.JPG");
  background-repeat: no-repeat;
  object-fit: contain;
+ background-size: cover;
+ height: 350px;
 
 }
 
